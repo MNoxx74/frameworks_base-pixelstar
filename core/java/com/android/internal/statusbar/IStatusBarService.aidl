@@ -242,6 +242,7 @@ interface IStatusBarService
      * Toggles flashlight of the device
      */
     void toggleCameraFlash();
+    void killForegroundApp();
 
     void screenPinningStateChanged(boolean enabled);
 
