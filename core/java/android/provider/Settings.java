@@ -12951,6 +12951,13 @@ public final class Settings {
         public static final String FACE_UNLOCK_METHOD = "face_unlock_method";
 
         /**
+         * Whether to allow sensitive qs tiles on keyguard
+         * @hide
+         */
+        @Readable
+        public static final String QSTILE_REQUIRES_UNLOCKING = "qstile_requires_unlocking";
+
+        /**
          * Whether to show an overlay in the bottom corner of the screen on copying stuff
          * into the clipboard.
          * @hide
