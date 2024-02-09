@@ -220,6 +220,10 @@ public class CustomUtils {
         return packageNames;
     }
 
+    public static boolean deviceHasFlashlight(Context ctx) {
+        return ctx.getPackageManager().hasSystemFeature(PackageManager.FEATURE_CAMERA_FLASH);
+    }
+
     public static void toggleCameraFlash() {
         FireActions.toggleCameraFlash();
     }
